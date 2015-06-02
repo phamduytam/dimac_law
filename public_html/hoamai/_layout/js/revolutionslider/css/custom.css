@@ -1,0 +1,111 @@
+.fullwidthbanner-container {
+    max-height: 480px !important;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100% !important;
+	margin-bottom: 20px;
+}
+
+.fullwidthbanner-container ul { list-style: none; }
+
+.caption { color: #fff; }
+
+.caption.title {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 300;
+}
+
+.caption.text{
+
+}
+
+.caption a.btn { 
+	color: #fff;
+	border-color: #fff;
+}
+
+.caption a.btn:hover { color: #494949; }
+
+.caption.icons {  
+	border: 15px solid rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+}
+
+.caption.icons i {
+	display: block;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #f98c6f;
+	font-size: 40px;
+	line-height: 90px;
+	text-align: center;
+}
+
+.tp-leftarrow.default {
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.5) url(../assets/prev.png) no-repeat center center;	
+}
+
+.tp-rightarrow.default {
+	width: 60px;
+	height: 60px;
+	background: rgba(255, 255, 255, 0.5) url(../assets/next.png) no-repeat center center;
+}
+
+.tp-bullets { bottom: 50px !important; }
+
+.tp-bullets.simplebullets.round .bullet {
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	margin: -10px 5px 0 5px;
+    background: #45aabb;
+}
+
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.round .bullet:hover { background: #f98b6e; }
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	.fullwidthbanner-container,
+	.fullwidthbanner-container .fullwidthabnner { max-height: 390px !important; }
+	
+}
+
+@media (max-width: 767px) {
+	
+	.fullwidthbanner-container,
+	.fullwidthbanner-container .fullwidthabnner { max-height: 160px !important; }
+	
+	.tp-leftarrow.default,
+	.tp-rightarrow.default { display: none; }
+	
+	.tp-bullets { bottom: 20px !important; }
+	
+	.caption a.btn.btn-large { 
+		padding: 3px 10px;
+		font-size: 10px;
+	}
+	
+	.caption.icons i {
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		line-height: 40px;
+	}
+		
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.fullwidthbanner-container,
+	.fullwidthbanner-container .fullwidthabnner { max-height: 245px !important; }
+	
+}
+
+

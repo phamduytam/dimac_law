@@ -1,0 +1,73 @@
+/**
+ * Name: boxed.css
+ * Version: 1.0.0
+ *	
+ *	-
+ *
+ * This file contains an alternative styling to make the layout boxed. 
+ * The boxed version also comes with a few background options that you can choose from.
+ *
+ */
+
+/* ==========================================================================
+   #General Layout 
+   ========================================================================== */
+
+	/**
+	 * You can choose an alternative background
+	 */
+		 
+	body { 
+		background: #fff url(../images/bg-body.png) repeat top left;
+		/*
+		background: #fff url(../images/bg-body2.png) repeat top left;
+		background: #fff url(../images/bg-body3.png) repeat top left;
+		background: #fff url(../images/bg-body4.png) repeat top left;
+		background: #fff url(../images/bg-body5.png) repeat top left;
+		background: #fff url(../images/bg-body6.png) repeat top left;
+		background: #fff url(../images/bg-body7.png) repeat top left;
+		background: #fff url(../images/bg-body8.png) repeat top left;
+		background: #fff url(../images/bg-body9.png) repeat top left;
+		background: #fff url(../images/bg-body10.png) repeat top left;
+		background: #fff url(../images/bg-body11.png) repeat top left;
+		background: #fff url(../images/bg-body12.png) repeat top left;
+		background: #fff url(../images/bg-body13.png) repeat top left;
+		background: #fff url(../images/bg-body14.png) repeat top left;
+		background: #fff url(../images/bg-body15.png) repeat top left;
+		background: #fff url(../images/bg-body16.png) repeat top left;
+		background: #fff url(../images/bg-body17.png) repeat top left;
+		background: #fff url(../images/bg-body18.png) repeat top left;
+		background: #fff url(../images/bg-body19.png) repeat top left;
+		background: #fff url(../images/bg-body20.png) repeat top left;
+		background: #fff url(../images/bg-body21.png) no-repeat fixed top left;
+		background: #fff url(../images/bg-body22.png) no-repeat fixed top left;
+		background: #fff url(../images/bg-body23.png) no-repeat fixed top left;
+		*/
+	}
+	
+	#wrap {
+		max-width: 1140px; 
+		margin: 0 auto;
+		-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);  
+		   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);    
+		        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);  
+	}
+	
+	#header {
+		max-width: 1140px; 
+	}
+	
+	
+/* ==========================================================================
+   #Responsive
+   ========================================================================== */
+	
+	@media (max-width: 1139px) {
+	
+		#wrap {
+			-webkit-box-shadow: none;  
+			   -moz-box-shadow: none;     
+		            box-shadow: none;  
+		}
+	
+	}

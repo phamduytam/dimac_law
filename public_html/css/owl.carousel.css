@@ -1,0 +1,189 @@
+
+.car_div {
+	position: absolute;
+	bottom: 10px;
+	z-index: 900;
+	background: url(../images/car_bg.png) 0 0 repeat;
+	border-radius: 5px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+#owl {
+	z-index: 1;
+	position: relative;
+	padding: 0 30px;
+}
+
+
+.owl-item {
+	float: left;
+}
+
+#owl .item {
+	text-align: center;
+	padding: 10px 6px;
+}
+
+#owl .item a {
+	display: block;
+}
+
+#owl .item img {
+	border-radius: 2px;
+	border: 2px solid #00b9ff;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+#owl .item.active img,
+#owl .item a:hover img {
+	border-color: #fff;
+}
+
+#owl .owl-wrapper-outer {
+	overflow: hidden;
+}
+
+#owl  .owl-controls {
+}
+
+
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-webkit-perspective: 1000;
+}
+
+#owl .owl-prev, #owl .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+	display: block;
+	height: 7px;
+	left: 17px;
+	width: 4px;
+	top: 50%;
+	margin-top: -4px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+#owl .owl-next {
+	right: 17px;
+	left: auto;
+	background-position: right 0;
+}
+
+#owl .owl-next:hover,
+#owl .owl-prev:hover {
+	opacity: 0.5;
+}
+
+
+#owl1 {
+	overflow: hidden;
+	position: relative;
+	padding-right: 0px;
+	margin: -31px -10px 0px;
+
+}
+
+
+#owl1 .owl-item {
+	float: left;
+	width: 100%;
+}
+
+
+#owl1 .item {
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
+}
+
+.box1 {
+	text-align: center;
+	background-color: #fff;
+	padding: 5px 5px 9px;
+	position: relative;
+}
+
+.box1 img {
+	width: 100%;
+}
+
+.box1:after {
+    position: absolute;
+    background: url(../images/box_shadow.png) center 0 no-repeat;
+    height: 31px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    left: 0;
+    right: 0;
+    top: 100%;
+    content: '';
+}
+
+.box1+.box1 {
+	margin-bottom: 20px;
+	margin-top: 24px;
+}
+
+.owl_number {
+	font: 300 24px/48px 'Roboto Condensed', sans-serif;
+	width: 52px;
+	position: relative;
+	height: 52px;
+	text-align: center;
+	border-radius: 500px;
+	color: #fff;
+	background-color: #b6b6b6;
+	margin: -21px auto 7px;
+}
+
+
+
+#owl1 .owl-wrapper-outer {
+	overflow: hidden;
+	padding-top: 56px;
+}
+
+
+#owl1 .owl-prev, #owl1 .owl-next {
+	cursor: pointer;
+	position: absolute;
+	background: url(../images/prevnext1.png) 0 0 no-repeat;
+	display: block;
+	height: 36px;
+	right: 45px;
+	width: 31px;
+	top: 0;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+#owl1 .owl-next {
+	right: 10px;
+	left: auto;
+	background-position: right bottom;
+}
+
+#owl1 .owl-next:hover {
+	 background-position: right 0;
+}
+#owl1 .owl-prev:hover {
+	background-position: 0 bottom;
+}
+
+.owl_banner {
+	text-align: center;
+	padding: 0 40px;
+}
+
+.owl_banner .text1 {
+	padding-bottom: 8px;
+}

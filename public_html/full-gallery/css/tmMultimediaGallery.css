@@ -1,0 +1,504 @@
+/* Pagination thumbs
+========================================================*/
+.inner {
+  margin: 20px 0px;
+  padding: 0 0 20px;
+  list-style: none;
+  overflow: hidden;
+}
+.inner ul {
+  margin: 0;
+  padding: 0;
+}
+.inner ul li {
+  width: 100px;
+  height: auto;
+  margin: 5px;
+  float: left;
+}
+.inner ul li a {
+  display: block;
+}
+.inner ul li a > img {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.inner ul li a:hover {
+  text-decoration: none;
+}
+.inner ul li a:hover img {
+  -webkit-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+/* Gallery bg
+========================================================*/
+body.galleryOpen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body.galleryOpen .galleryContainer {
+  position: absolute;
+  z-index: 1000;
+  width: 100% !important;
+  height: 100% !important;
+}
+body.galleryOpen .content {
+  height: 0 !important;
+  overflow: hidden;
+}
+.galleryContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 0 !important;
+  overflow: hidden;
+  /*.perspective(1000px);*/
+}
+.galleryContainer.animationDisable {
+  -webkit-transition: none;
+  transition: none;
+}
+.galleryContainer.animationDisable * {
+  -webkit-transition: none;
+  transition: none;
+}
+.galleryHolder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0 !important;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -o-transform-origin: center;
+  background: #000000;
+}
+.imageHolder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  cursor: default;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.imageHolder .frontImg,
+.imageHolder .backImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.imageHolder .frontImg,
+.imageHolder .backImg {
+  z-index: 2;
+  /*.rotateX(0deg);*/
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.imageHolder .backImg {
+  /*.rotateX(-180deg);*/
+  -webkit-transform: scale(2, 2);
+  -ms-transform: scale(2, 2);
+  transform: scale(2, 2);
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.imageHolder.scale {
+  -webkit-transform: scale(0.75, );
+  -ms-transform: scale(0.75, );
+  transform: scale(0.75, );
+}
+.imageHolder.flip {
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  /*.rotateX(180deg);*/
+}
+.imageHolder.flip .frontImg {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(2, 2);
+  -ms-transform: scale(2, 2);
+  transform: scale(2, 2);
+}
+.imageHolder.flip .backImg {
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  /*.rotateX(-180deg);*/
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.imageHolder.ie9 {
+  -webkit-transform: scale(1, 1) !important;
+  -ms-transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
+}
+.imageHolder.ie9 .frontImg,
+.imageHolder.ie9 .backImg {
+  -webkit-transform: scale(1, 1) !important;
+  -ms-transform: scale(1, 1) !important;
+  transform: scale(1, 1) !important;
+}
+.imageHolder.videoInside {
+  cursor: pointer;
+}
+.animation {
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+/* Description
+========================================================*/
+.galleryDescription {
+  position: absolute;
+  bottom: -400px;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  z-index: 3;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.galleryDescription.show {
+  bottom: 0;
+}
+.galleryDescription ul li {
+  position: absolute;
+  bottom: -200%;
+  width: 100%;
+  height: auto;
+  background: red;
+  padding: 15px 20px;
+  right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.galleryDescription ul li.active {
+  display: block;
+  bottom: 0;
+  -webkit-transition: all 0.7s 1.8s ease-in-out;
+  transition: all 0.7s 1.8s ease-in-out;
+}
+.galleryDescription ul li p {
+  text-align: left;
+  color: white;
+  line-height: 1.2em;
+  margin: 0px 0px 0px 0px;
+}
+.galleryDescription ul li p:first-child {
+  font-size: 35px;
+  line-height: 1em;
+  padding-right: 40px;
+}
+/* Spinner
+========================================================*/
+.imgSpinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 48px;
+  height: 48px;
+  z-index: 99;
+  background: url(../../images/full-gallery/image-spinner.gif) center no-repeat;
+  border-radius: 24px;
+  margin: -24px 0 0 -24px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+.imgSpinner.spinnerShow {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+/* ========================================================
+                            Buttons
+========================================================*/
+/* Navigation Bar
+========================================================*/
+.gall_navigation {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+/* Prev Button
+========================================================*/
+.prevButton {
+  position: absolute;
+  display: inline-block !important;
+  z-index: 5;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  top: 0;
+  height: 60px;
+}
+.prevButton i {
+  display: block;
+  position: relative;
+  font-size: 60px;
+  line-height: 50px;
+  color: #00bfff;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.prevButton:hover {
+  text-decoration: none;
+}
+.prevButton:hover i {
+  color: white;
+}
+.prevButton {
+  left: -50px;
+}
+.prevButton.showButton {
+  left: 45%;
+}
+/* Next Button
+========================================================*/
+.nextButton {
+  position: absolute;
+  display: inline-block !important;
+  z-index: 5;
+  height: 60px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  top: 0;
+}
+.nextButton i {
+  position: relative;
+  font-size: 60px;
+  line-height: 50px;
+  display: block;
+  color: #00bfff;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.nextButton:hover {
+  text-decoration: none;
+}
+.nextButton:hover i {
+  color: white;
+}
+.nextButton {
+  right: -50px;
+}
+.nextButton.showButton {
+  right: 45%;
+}
+/* Next Button, Prev Button Hovers
+========================================================*/
+.prevButton,
+.nextButton {
+  position: absolute;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+}
+.prevButton > i,
+.nextButton > i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 10px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.prevButton:hover > i,
+.nextButton:hover > i {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+.close-icon,
+.info-icon,
+.close-info-icon {
+  /*position: absolute;*/
+  right: 2%;
+  top: 0;
+  margin-top: 0px;
+  z-index: 100;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  top: -50px;
+}
+.close-icon i,
+.info-icon i,
+.close-info-icon i {
+  font-size: 50px;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.close-icon.showButton,
+.info-icon.showButton,
+.close-info-icon.showButton {
+  top: -54px;
+  right: -49px;
+}
+/* Close Button
+========================================================*/
+.close-icon {
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  /* opacity: 0.5; */
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  top: -120px;
+  right: -120px;
+  position: absolute;
+  display: inline-block !important;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.close-icon i {
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.close-icon .fa {
+  top: 63px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #00bfff;
+  left: 23px;
+}
+.close-icon:hover {
+  text-decoration: none;
+}
+.close-icon:hover i {
+  color: black;
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+/* Info Button
+========================================================*/
+.info-icon {
+  position: absolute;
+  bottom: -50px;
+  top: auto;
+}
+.info-icon.showButton {
+  bottom: 15px;
+  top: auto;
+}
+.close-info-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  left: auto;
+}
+.close-info-icon i {
+  color: white;
+  font-size: 30px;
+}
+.close-info-icon:hover > i {
+  color: white;
+}
+/* Close Info Button
+========================================================*/
+/**/
+.playButton,
+.pauseButton {
+  left: 50%;
+  top: -100px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.playButton.showButton,
+.pauseButton.showButton {
+  transition-delay: 0.3s;
+  top: 50%;
+}
+.playButton {
+  margin: -27px -24px 0 0;
+}
+.pauseButton {
+  margin: -27px -24px 0 0;
+}
+/* end gallery bg*/
+@media only screen and (max-width: 768px) {
+  .galleryDescription {
+    width: 100%;
+  }
+}
+/* 3D mixins
+========================================================*/
+.flipX {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.flipY {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+.flipXY {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}

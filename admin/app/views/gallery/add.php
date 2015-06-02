@@ -1,0 +1,66 @@
+<?php
+$this->pageTitle = 'Gallery';
+?>
+<ol class="breadcrumb">
+	<li><a href='<?php echo url($this->baseUrl)?>'>Home</a></li>
+	<li><a href='<?php echo url($this->baseUrl.'gallery')?>'>Gallery</a></li>
+	<li>Add</li>
+</ol>
+
+<div class="row">
+	<div class="col-lg-8">
+		<?php echo CHtml::errorSummary($model, '<div class="alert alert-dismissable alert-warning"> Errors', '</div>'); ?>
+		<?php
+			if (user()->hasFlash('messages'))
+			{
+				$messages = user()->getFlash('messages');
+				echo '<div class="alert alert-dismissable alert-success">'. hsp($messages). '</div><br>';
+			}
+			?>
+		<?php
+			$form = $this->beginWidget('TbActiveForm', array(
+				'action'=>sslUrl($this->baseUrl.'gallery/add'),
+				'id' => 'add-form',
+				'htmlOptions'=>array('enctype' => 'multipart/form-data', 'class' => 'formBox')
+			));
+		?>
+		<?php echo $form->hiddenField($model,'langId', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập tên image', 'value' => '1')); ?>
+		<div class="form-group">
+			<?php echo $form->labelEx($model,'name'); ?>
+			<?php echo $form->textField($model,'name', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập tên image')); ?>
+		</div>
+
+		<div class="form-group">
+			<?php echo $form->labelEx($model,'image'); ?>
+			<?php //echo $form->fileField($model,'image', array('multiple' => 'multiple')); ?>
+			<?php
+			$this->widget('CMultiFileUpload', array(
+				'model' => $model,
+				'attribute' => 'image',
+				'accept' => 'jpeg|jpg|gif|png', // useful for verifying files
+				'duplicate' => 'Duplicate file!', // useful, i think
+				'denied' => 'Invalid file type', // useful, i think
+			));
+			?>
+		</div>
+
+		<div class="form-group checkbox">
+			<?php echo $form->labelEx($model,'status'); ?>
+			<?php echo $form->checkBox($model,'status', array('checked' => 'checked')); ?>
+		</div>
+
+		<div class="form-group">
+			<?php echo $form->labelEx($model,'order'); ?>
+			<?php echo $form->textField($model,'order', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập thứ tự')); ?>
+		</div>
+
+		<button type="submit" class="btn btn-default">Save</button>
+		<button type="reset" class="btn btn-default">Cancel</button>
+
+		<?php
+			$this->endWidget();
+		?>
+
+	</div>
+</div>
+

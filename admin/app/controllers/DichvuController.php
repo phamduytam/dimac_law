@@ -1,5 +1,5 @@
 <?php
-class DichvuController extends Controller
+class DichVuController extends Controller
 {
 	public function actionIndex()
 	{
@@ -18,15 +18,14 @@ class DichvuController extends Controller
 		$model = $baiviet->findByPk($id);
 		if(!$model)
 			return ;
-		$order = isset($_GET['order_select']) ? $_GET['order_select'] : '';
-		$selected = isset($_GET['selected']) ? $_GET['selected'] : '';
-		if ($order != '') $model->order_select = $order;
-		if ($selected != '') $model->selected = $selected;
-		//echo $model->selected;
+		$order = request()->getQuery('order_select', '');;
+		$selected = request()->getQuery('selected', '');
+		if ($order) $model->order_select = $order;
+		if ($selected) $model->selected = $selected;
 		if($model->validate())
 		{
-			$model->save();
-				
+			if($model->save())
+				user()->setFlash('messages', 'Edit successful!!');
 		}
 	}
 }

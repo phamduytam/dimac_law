@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ví dụ sử dụng Directive ng-Form</title>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+        <style>
+            .ng-invalid{
+                color:red;
+            }
+        </style>
+        <script>
+            angular.module('myapp', [])
+                    .controller('ExampleController', ['$scope', function($scope) {
+                     
+                    // Khi submit form thì chạy hàm này
+                    $scope.login = function()
+                    {
+                        // nếu người dùng có nhập nội dung thì lưu nó vào list
+                        if ($scope.username == 'admin' && $scope.password == '123456'){
+                            alert('Đăng Nhập Thành Công');
+                        }
+                        else {
+                            alert('Đăng Nhập Thất Bại');
+                        }
+                    };
+                }]);
+        </script>
+    </head>
+    <body ng-app="myapp">
+        <h1>Đăng Nhập</h1>
+        <form ng-controller="ExampleController" name="myForm" ng-submit="login()">
+            User name: <br/>
+            <input type="text" name="userName" ng-pattern="/^([a-zA-Z0-9]+)$/"  ng-model="username" ng-trim="true" required ng-minlength="3" ng-maxlength="10" /> <br/>
+            Password: <br/>
+            <input type="text" name="userPass" ng-model="password" required ng-minlength="3" ng-maxlength="10" ng-trim="true"> <br/><br/>
+            <input type="submit" value='Login'/>
+          </form>
+    </body>
+</html>

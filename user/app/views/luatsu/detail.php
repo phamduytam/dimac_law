@@ -11,7 +11,7 @@ Content
 				<div class="description col-md-12"><?php echo $luatsu ? html_entity_decode($luatsu->content, ENT_QUOTES, 'UTF-8') : ''?></div>
 				<?php
 					$form = $this->beginWidget('TbActiveForm', array(
-						'action'=>sslUrl($this->baseUrl.'luat-su.html'),
+						'action'=>sslUrl($this->baseUrl.'luat-su.html#result'),
 						'id' => 'form',
 						'method' => 'GET',
 						'htmlOptions'=>array('enctype' => 'multipart/form-data')
@@ -58,12 +58,15 @@ Content
 			</div>
 			<?php if($content):?>
 			<hr>
-			<div class="row">
+			<div class="row" id="content">
 				<div class="col-md-3">
 					<p align="center"><img src="<?php echo app()->baseUrl;?>/uploads/<?php echo $content->image?>" align="center"></p>
 					<?php lang('luatsu_diachi')?>: <?php echo $content->address?><br>
 					<?php lang('luatsu_phone')?>: <?php echo $content->phone?><br>	
 					<?php lang('luatsu_vanphong')?>: <?php echo $con_vanphong?><br>
+
+					<br>
+					<?php echo html_entity_decode($content->content1, ENT_QUOTES, 'UTF-8'); ?>
 				</div>
 				<div class="col-md-9">
 					<?php lang('luatsu_name')?>: <?php echo $content->name?><br>

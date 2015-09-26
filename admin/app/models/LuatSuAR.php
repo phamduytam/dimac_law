@@ -43,7 +43,7 @@ class LuatSuAR extends BaseAR
 			array('name', 'required', 'message' => 'Vui lòng nhập tên luật sư'),
 			array('content', 'required', 'message' => 'Vui lòng nhập nội dung'),
 			array('image', 'file', 'allowEmpty'=>true, 'types' => 'jpg, gif, png, jpeg', 'maxSize' => 2048*1000, 'wrongType' => 'Image không đúng định dạng ', 'tooLarge' => 'Image quá lớn'),
-			array('ordering, email, phone, address, linhvuc_id, chucdanh_id, vanphong_id, created, lang', 'safe')
+			array('ordering, email, phone, address, linhvuc_id, chucdanh_id, vanphong_id, created, lang, content1', 'safe')
 		);
 	}
 
@@ -71,6 +71,7 @@ class LuatSuAR extends BaseAR
 			'alias'			=> 'Alias',
 			'email'			=> 'Email',
 			'content'		=> 'Nội dung',
+			'content1'		=> 'Học vấn, kinh nghiệm hành nghề, ...',
 			'image'			=> 'Hình ảnh',
 			'ordering'		=> 'Thứ tự',
 			'address'		=> 'Địa chỉ',

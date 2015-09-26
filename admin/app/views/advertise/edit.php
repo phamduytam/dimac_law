@@ -27,6 +27,7 @@ $this->pageTitle = 'Advertise';
 		?>
 		<div class="form-group alert-warning alert">
 			<p> - Logo: width = 200, height = 102</p>
+			<p> - Giải thưởng: width = 180, height = 180</p>
 			<p> - Image giới thiệu: width = 274</p>
 			<p> - Còn lại những mục khác: width = 1200, height: 360 </p>
 		</div>
@@ -34,6 +35,7 @@ $this->pageTitle = 'Advertise';
 			<?php echo $form->labelEx($model,'cat_id'); ?>
 			<select name="AdvertiseAR[cat_id]" class="form-control">
 				<option value="logo" <?php if($model->cat_id == 'logo') echo 'selected'?>>Logo</option>
+				<option value="giaithuong" <?php if($model->cat_id == 'giaithuong') echo 'selected'?>>Giải thưởng</option>
 				<option value="gioithieu" <?php if($model->cat_id == 'gioithieu') echo 'selected'?>>Image giới thiệu</option>
 				<?php $baiviet = new BaiVietAR(); $baiviet1 = new BaiVietAR();?>
 				<?php foreach($category as $v):?>

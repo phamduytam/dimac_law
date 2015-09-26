@@ -74,7 +74,7 @@ body {
 .category1 a {
     color: #000;
     font-family: Roboto;
-    background: url('../images/icon.png') no-repeat center left;
+    background: url('../images/sub_icon.png') no-repeat center left;
     
     padding:7px 10px 7px 20px;
     font-size: 14px;
@@ -94,14 +94,24 @@ body {
     color: #fff; 
 }
 
-.category .active a, .category1 .active a{
+.category .active a{
     color: #fff;
     background: url('../images/icon_hover.png') no-repeat center left;
 }
 
-.category a:hover, .category1 a:hover{
+ .category1 .active a{
+    color: #fff;
+    background: url('../images/sub_icon_hover.png') no-repeat center left;
+}
+.category a:hover{
     color: #fff;
     background: url('../images/icon_hover.png') no-repeat center left;
+    text-decoration: none;
+}
+
+.category1 a:hover{
+    color: #fff;
+    background: url('../images/sub_icon_hover.png') no-repeat center left;
     text-decoration: none;
 }
 

@@ -42,3 +42,95 @@
 		<?php endif;?>
 	</div>
 </div>
+<br>
+<?php if($giaithuong):?>
+<div class="list_carousel">
+				<ul id="foo3">
+					<?php foreach($giaithuong as $v):?>
+					<li><img src="/uploads/<?php echo $v->image?>"></li>
+				<?php endforeach;?>
+
+				</ul>	
+				<div class="clearfix"></div>
+			</div>
+<style>
+.list_carousel {
+				
+			}
+			.list_carousel ul {
+				
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				
+				text-align: center;
+				width: 180px;
+				height: 180px;
+				padding: 0;
+				margin-right: 10px;
+				display: block;
+				float: left;
+			}
+			.list_carousel li:last-child {
+				
+				text-align: center;
+				width: 180px;
+				height: 178px;
+				padding: 0;
+				margin-right: 0px;
+				display: block;
+				float: left;
+			}
+
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 10px;
+			}
+			.next {
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+</style>			
+<script src="/js/jquery.carouFredSel-4.2.3.js"></script>			
+<script>
+$('#foo3').carouFredSel({
+					width: 'auto',
+					height:190,
+					scroll:
+					{
+						items:1,
+						duration:500
+					},
+					next: '#next3',
+					prev: '#prev3',
+					auto:{
+						pauseOnHover: 'resume'
+					},
+					wrap:'circular'
+				});
+</script>
+<?php endif;?>

@@ -7,7 +7,7 @@ return array(
 	'giatri'			=> 'Giá trị cốt lõi',
 	'linhvuc'			=> 'Lĩnh vực hoạt động',
 	'khachhang'			=> 'Khách hàng',
-	'tintuc'			=> 'Tin tức và Cập nhật',
+	'tintuc'			=> 'Tin tức và Events',
 	'nghenghiep'		=> 'Nghề nghiệp',
 	'contact'			=> 'Liên hệ',
 	'luatsu'			=> 'Luật sư',

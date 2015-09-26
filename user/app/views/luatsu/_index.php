@@ -5,7 +5,7 @@
 		</a>
 	</div>
 	<div class="col-md-9">
-		<?php lang('luatsu_name')?>: <a href="<?php echo url($this->baseUrl.'luat-su/'.$data->id.'/'.$data->alias.'.html')?>">
+		<?php lang('luatsu_name')?>: <a href="<?php echo url($this->baseUrl.'luat-su/'.$data->id.'/'.$data->alias.'.html#content')?>">
 		<?php echo $data->name;?>
 		</a><br>
 		Email: <?php echo $data->email?><br>

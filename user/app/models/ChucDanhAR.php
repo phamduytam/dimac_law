@@ -103,7 +103,7 @@ class ChucDanhAR extends BaseAR
 		if(strlen($this->lang) > 0){
 			$criteria->addCondition('lang = :lang')->params[':lang'] = $this->lang;
 		}
-		$criteria->order = 'id DESC';
+		$criteria->order = 'ordering ASC';
 		return $criteria;
 	}
 

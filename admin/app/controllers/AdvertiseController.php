@@ -91,7 +91,11 @@ class AdvertiseController extends Controller
 	{
 		$model = AdvertiseAR::model()->findByPk($id);
 		if($model->delete())
+		{
 			deleteImage(dirname(dirname(app()->basePath)) . app()->params['imagePath'], $model->image);
+			
+		}
+			
 	}
 
 	private function resizeImage($pathImage, $cat_id){
@@ -103,7 +107,10 @@ class AdvertiseController extends Controller
 				$w = 274; $h = 257; $type = 'landscape';
 			}else if($cat_id == 'logo'){
 				$w = 200; $h = 102;
-			}else if($cat_id == 1){
+			}else if($cat_id == 'giaithuong'){
+				$w = 180; $h = 180;
+			}
+			else{
 				$w = 1200; $h = 360;
 			}
 

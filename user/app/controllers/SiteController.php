@@ -18,6 +18,11 @@ class SiteController extends Controller
 
 		// image gioithieu
 		$model = new AdvertiseAR();
+		$model->cat_id = 'giaithuong';
+		$giaithuong = $model->getList();
+
+		// image giaithuong
+		$model = new AdvertiseAR();
 		$img_gioithieu = $model->findByPk(11);
 
 		// dich vu chuyen nghiep
@@ -32,7 +37,7 @@ class SiteController extends Controller
 		$tintuc = $model->getNew();
 
 		$this->pageTitle = "DIMAC PROFESSIONAL CORPORATE LAWYERS";
-		$this->render('index', compact('advertise', 'gioithieu', 'img_gioithieu', 'dichvu', 'tintuc'));
+		$this->render('index', compact('advertise', 'gioithieu', 'img_gioithieu', 'dichvu', 'tintuc', 'giaithuong'));
 	}
 
 	/**

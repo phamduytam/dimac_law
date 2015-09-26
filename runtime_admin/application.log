@@ -3544,3 +3544,1017 @@ Stack trace:
 REQUEST_URI=/dimac_law/public_html/dimac_law/public_htmlvn/van-phong/ho-chi-minh.html
 HTTP_REFERER=http://localhost/dimac_law/public_html/dimac_law/public_html/vn/gia-tri-cot-loi.html
 ---
+2015/09/22 08:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/loading.gif".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/loading.gif')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/loading.gif
+HTTP_REFERER=http://dimac-law.tam/css/default.css
+---
+2015/09/22 09:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:17:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:37:05 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (22)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 09:37:33 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (22)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 09:42:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:45:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:45:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:49:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:50:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:50:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:51:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 09:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/718f7bb8/css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/718f7bb8...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/718f7bb8/css/bootstrap.css.map
+---
+2015/09/22 10:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/linh-vuc-hoat-dong.html
+---
+2015/09/22 10:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 10:16:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/linh-vuc-hoat-dong.html
+---
+2015/09/22 10:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/linh-vuc-hoat-dong.html
+---
+2015/09/22 10:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 10:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "category".' in C:\xampp\htdocs\dimac_law\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CController.php(271): CController->missingAction('category')
+#1 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(283): CController->run('category')
+#2 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('advertise/categ...')
+#3 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/vn/advertise/category
+---
+2015/09/22 10:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "categorypro/index".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('categorypro/ind...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/vn/categorypro
+---
+2015/09/22 10:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "categorycat/index".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('categorycat/ind...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/vn/categorycat
+---
+2015/09/22 10:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "category1/index".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('category1/index')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/vn/category1
+---
+2015/09/22 10:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/gioi-thieu.html
+---
+2015/09/22 11:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:16:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:18:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:28:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:32:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:34:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:37:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:41:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:41:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 11:46:08 [error] [php] Object of class CategoryAR could not be converted to string (C:\xampp\htdocs\dimac_law\admin\app\views\advertise\_index.php:5)
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\zii\widgets\CListView.php(260): AdvertiseController->renderFile()
+#1 C:\xampp\htdocs\dimac_law\framework\zii\widgets\CBaseListView.php(161): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\xampp\htdocs\dimac_law\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback()
+#4 C:\xampp\htdocs\dimac_law\framework\zii\widgets\CBaseListView.php(129): CListView->renderContent()
+#5 C:\xampp\htdocs\dimac_law\framework\web\CBaseController.php(174): CListView->run()
+#6 C:\xampp\htdocs\dimac_law\admin\app\views\advertise\index.php(50): AdvertiseController->widget()
+#7 C:\xampp\htdocs\dimac_law\framework\web\CBaseController.php(127): require()
+#8 C:\xampp\htdocs\dimac_law\framework\web\CBaseController.php(96): AdvertiseController->renderInternal()
+#9 C:\xampp\htdocs\dimac_law\framework\web\CController.php(870): AdvertiseController->renderFile()
+#10 C:\xampp\htdocs\dimac_law\framework\web\CController.php(783): AdvertiseController->renderPartial()
+#11 C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php(10): AdvertiseController->render()
+#12 C:\xampp\htdocs\dimac_law\framework\web\actions\CInlineAction.php(50): AdvertiseController->actionIndex()
+#13 C:\xampp\htdocs\dimac_law\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\dimac_law\framework\web\CController.php(287): AdvertiseController->runAction()
+#15 C:\xampp\htdocs\dimac_law\framework\web\CController.php(266): AdvertiseController->runActionWithFilters()
+#16 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(283): AdvertiseController->run()
+#17 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\dimac_law\public_html\admin\index.php(9): CWebApplication->run()
+REQUEST_URI=/admin/vn/advertise
+in C:\xampp\htdocs\dimac_law\admin\app\views\advertise\_index.php (5)
+in C:\xampp\htdocs\dimac_law\admin\app\views\advertise\index.php (50)
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (10)
+2015/09/22 11:47:37 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (22)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 11:49:20 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (61)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 11:56:33 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (61)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 12:06:00 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (22)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 12:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/nghe-nghiep.html
+---
+2015/09/22 12:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/loading.gif".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/loading.gif')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/loading.gif
+HTTP_REFERER=http://dimac-law.tam/css/default.css
+---
+2015/09/22 12:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/nghe-nghiep.html
+---
+2015/09/22 12:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:15:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:15:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/van-phong.html
+---
+2015/09/22 12:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/gia-tri-cot-loi.html
+---
+2015/09/22 12:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/khach-hang.html
+---
+2015/09/22 12:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/van-phong.html
+---
+2015/09/22 12:16:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/nghe-nghiep.html
+---
+2015/09/22 12:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/nghe-nghiep.html
+---
+2015/09/22 12:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:17:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/tin-tuc-va-cap-nhat.html
+---
+2015/09/22 12:17:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/linh-vuc-hoat-dong.html
+---
+2015/09/22 12:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/van-phong.html
+---
+2015/09/22 12:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:17:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/gioi-thieu.html
+---
+2015/09/22 12:17:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/nghe-nghiep.html
+---
+2015/09/22 12:17:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:18:02 [warning] [application] Failed to set unsafe attribute "image" of "AdvertiseAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\AdvertiseController.php (22)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/22 12:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2015/09/22 12:18:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/linh-vuc-hoat-dong.html
+---
+2015/09/22 12:18:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/khach-hang.html
+---
+2015/09/22 12:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/nghe-nghiep.html
+---
+2015/09/23 13:56:44 [warning] [application] Failed to set unsafe attribute "image" of "LuatSuAR".
+in C:\xampp\htdocs\dimac_law\admin\app\controllers\LuatsuController.php (73)
+in C:\xampp\htdocs\dimac_law\public_html\admin\index.php (9)
+2015/09/23 13:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/loading.gif".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/loading.gif')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/loading.gif
+HTTP_REFERER=http://dimac-law.tam/css/default.css
+---
+2015/09/23 13:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html
+---
+2015/09/23 13:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=tuan&linhvuc=0&chucdanh=0&vanphong=0
+---
+2015/09/26 07:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/loading.gif".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('css/loading.gif')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/loading.gif
+HTTP_REFERER=http://dimac-law.tam/css/default.css
+---
+2015/09/26 07:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html
+---
+2015/09/26 07:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html
+---
+2015/09/26 07:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=&linhvuc=0&chucdanh=0&vanphong=0
+---
+2015/09/26 07:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=tuan&linhvuc=0&chucdanh=0&vanphong=0
+---
+2015/09/26 07:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=ly&linhvuc=0&chucdanh=0&vanphong=0
+---
+2015/09/26 07:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=ly&linhvuc=0&chucdanh=0&vanphong=0
+---
+2015/09/26 07:48:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=ly&linhvuc=0&chucdanh=0&vanphong=0
+---
+2015/09/26 07:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vn/images/logo.png".' in C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\dimac_law\framework\web\CWebApplication.php(142): CWebApplication->runController('vn/images/logo....')
+#1 C:\xampp\htdocs\dimac_law\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dimac_law\public_html\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/vn/images/logo.png
+HTTP_REFERER=http://dimac-law.tam/vn/luat-su.html?name=tuan&linhvuc=0&chucdanh=0&vanphong=0
+---

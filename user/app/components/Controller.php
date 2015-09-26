@@ -14,6 +14,7 @@ class Controller extends CController
 	 * @var array context menu items. This property will be assigned to {@link CMenu::items}.
 	 */
 	public $menu=array();
+	
 	/**
 	 * @var array the breadcrumbs of the current page. The value of this property will
 	 * be assigned to {@link CBreadcrumbs::links}. Please refer to {@link CBreadcrumbs::links}
@@ -82,6 +83,20 @@ class Controller extends CController
 			$alias = str_replace('.html', '', $alias);
 			$content = $category->findByAttributes(array('alias' => $alias, 'lang' => $this->langtype));
 			
+		}
+		else {
+
+			$menu = array(
+				'gioithieu' => 1,
+				'vanphong'	=> 2,
+				'giatri'	=> 3,
+				'linhvuc'	=> 4,
+				'khachhang'	=> 5,
+				'tintuc'	=> 6,
+				'nghenghiep'	=> 7
+				);
+			if(isset($menu[$this->id]))
+			$content->id = $menu[$this->id];
 		}
 		if(isset($content) && $content) {
 			$model->cat_id = $content->id;

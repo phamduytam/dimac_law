@@ -73,16 +73,22 @@ $this->pageTitle = 'Advertise';
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		var url = "<?php echo url($this->baseUrl)?>";
+		var url = "<?php echo app()->baseUrl;?>";
 		$('.bt_del').click(function(){
 			id = $(this).attr('id');
 			var r = confirm("Are you sure delete?");
 			if(r == true)
 			{
 				$.ajax({
-					'url': url + "/advertise/delete/" + id,
+					url: url + "/advertise/delete/" + id,
+					type:'Get',
+					cache: false,
+					dataType: 'JSON',
 					success:function(msg){
 						location.reload();
+					},
+					error: function () {
+						console.log(path, arguments)
 					}
 					});
 			}

@@ -82,6 +82,20 @@ $this->pageTitle = 'Luật sư';
 </div>
 
 <div class="form-group">
+	<?php echo $form->labelEx($model,'content1'); ?>
+	<?php echo $form->textArea($model,'content1', array('class' => 'form-control')); ?>
+	<script>
+	editor = CKEDITOR.replace( 'LuatSuAR_content1', {
+		filebrowserBrowseUrl: '/browser/browse.php',
+		filebrowserUploadUrl: '/uploader/upload.php',
+		filebrowserWindowWidth: '640',
+		filebrowserWindowHeight: '480',
+	});
+	CKFinder.setupCKEditor( editor, '<?php echo app()->baseUrl?>/js/ckfinder/' );
+	</script>
+</div>
+
+<div class="form-group">
 	<?php echo $form->labelEx($model,'ordering'); ?>
 	<?php echo $form->textField($model,'ordering', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập thứ tự')); ?>
 </div>

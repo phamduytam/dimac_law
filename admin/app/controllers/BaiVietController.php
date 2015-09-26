@@ -23,6 +23,9 @@ class BaivietController extends Controller
 
 			$data = request()->getPost('BaiVietAR');
 			$model->attributes = $data;
+			$search = "rel=\"data-toggle='collapse'\"";
+			$replace = "data-toggle='collapse'";
+			$model->content = str_replace($search, $replace, $data['content']);
 			$model->cat_id = $cat_id;
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
@@ -56,13 +59,21 @@ class BaivietController extends Controller
 	{
 		$baiviet = new BaiVietAR();
 		$model = $baiviet->findByPk($id);
+		
 		$cat_id = request()->getQuery('cat_id', '');
 		if(!$model)
 			return ;
+		$replace = "data-toggle='collapse'";
+		$search = "data-toggle='collapse'";
+		$model->content = str_replace($search, $replace, $model->content);
+		
 		if (app()->request->getPost('BaiVietAR'))
 		{
 			$data = request()->getPost('BaiVietAR');
 			$model->attributes = $data;
+			$search = "rel=\"data-toggle='collapse'\"";
+			$replace = "data-toggle='collapse'";
+			$model->content = str_replace($search, $replace, $data['content']);
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;

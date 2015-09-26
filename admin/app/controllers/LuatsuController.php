@@ -19,6 +19,9 @@ class LuatsuController extends Controller
 			// POSTデータの取得
 			$data = request()->getPost('LuatSuAR');
 			$model->attributes = $data;
+			$search = "rel=\"data-toggle='collapse'\"";
+			$replace = "data-toggle='collapse'";
+			$model->content = str_replace($search, $replace, $data['content']);
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;
@@ -67,10 +70,16 @@ class LuatsuController extends Controller
 		$model = $luatsu->findByPk($id);
 		if(!$model)
 			return ;
+		$replace = "data-toggle='collapse'";
+		$search = "data-toggle='collapse'";
+		$model->content = str_replace($search, $replace, $model->content);
 		if (app()->request->getPost('LuatSuAR'))
 		{
 			$data = request()->getPost('LuatSuAR');
 			$model->attributes = $data;
+			$search = "rel=\"data-toggle='collapse'\"";
+			$replace = "data-toggle='collapse'";
+			$model->content = str_replace($search, $replace, $data['content']);
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;

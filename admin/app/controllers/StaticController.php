@@ -20,6 +20,9 @@ class StaticController extends Controller
 			// POSTデータの取得
 			$data = request()->getPost('StaticAR');
 			$model->attributes = $data;
+			$search = "rel=\"data-toggle='collapse'\"";
+			$replace = "data-toggle='collapse'";
+			$model->content = str_replace($search, $replace, $data['content']);
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;
@@ -40,10 +43,16 @@ class StaticController extends Controller
 		$model = $static->findByPk($id);
 		if(!$model)
 			return ;
+		$replace = "data-toggle='collapse'";
+		$search = "data-toggle='collapse'";
+		$model->content = str_replace($search, $replace, $model->content);
 		if (app()->request->getPost('StaticAR'))
 		{
 			$data = request()->getPost('StaticAR');
 			$model->attributes = $data;
+			$search = "rel=\"data-toggle='collapse'\"";
+			$replace = "data-toggle='collapse'";
+			$model->content = str_replace($search, $replace, $data['content']);
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;

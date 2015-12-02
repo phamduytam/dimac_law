@@ -1,5 +1,5 @@
 <div class="gioithieu">
-	<div class="row">
+	<div class="row" style="position:relative;">
 		<div class="col-md-9">
 			<div class="title">DIMAC</div>
 			<div class="description">
@@ -8,7 +8,9 @@
 			<?php endif;?>
 			</div>
 		</div>
-		<div class="col-md-3"><img src="<?php echo app()->baseUrl?>/<?php echo $img_gioithieu ? 'uploads/'.$img_gioithieu->image : 'images/img.png'?>"></div>
+		<div class="col-md-3" style="position:absolute;right:0px;bottom:10px;">
+			<img src="<?php echo app()->baseUrl?>/<?php echo $img_gioithieu ? 'uploads/'.$img_gioithieu->image : 'images/img.png'?>">
+		</div>
 	</div>
 </div>
 <div class="row">

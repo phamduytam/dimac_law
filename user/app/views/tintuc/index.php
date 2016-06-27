@@ -8,7 +8,7 @@
 </div>
 <div class="col-md-9 content">
 	<?php if($content):?>
-	<h3 class="title"><?php echo $parent->name?></h3>
+	<h3 class="title"><?php echo is_object($parent) ? $parent->name : "" ?></h3>
 	<?php
 		$listView = $this->widget('zii.widgets.CListView', array(
 			'dataProvider'=>$content,

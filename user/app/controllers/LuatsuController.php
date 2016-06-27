@@ -10,10 +10,13 @@ class LuatsuController extends Controller
 		$get_vanphong = request()->getQuery('vanphong', 0);
 		$get_chucdanh = request()->getQuery('chucdanh', 0);
 
+
 		if($get_name) $model->word = $get_name;
 		if($get_linhvuc) $model->linhvuc_id = $get_linhvuc;
 		if($get_vanphong) $model->vanphong_id = $get_vanphong;
 		if($get_chucdanh) $model->chucdanh_id = $get_chucdanh;
+		$model->lang = $this->langtype;
+
 		if($get_chucdanh != 0 || $get_vanphong != 0 || $get_name != '' || $get_linhvuc != 0)
 			$content = $model->searchList();
 

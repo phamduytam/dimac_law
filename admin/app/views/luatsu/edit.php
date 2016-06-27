@@ -45,9 +45,21 @@ $this->pageTitle = 'Luật sư';
 	<?php echo $form->textField($model,'address', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập địa chỉ')); ?>
 </div>
 
-<div class="form-group">
+<div class="form-group" style="overflow: hidden">
 	<?php echo $form->labelEx($model,'linhvuc_id'); ?>
-	<?php echo $form->dropDownList($model,'linhvuc_id', CHtml::listData($linhvuc, 'id', 'name'), array('class' => 'form-control')); ?>
+	<br>
+	<?php if($linhvuc):
+		$linhvuc_checked = explode(',', $model->linhvuc_id);
+	?>
+		<?php foreach ($linhvuc as $value) {
+			$checked = in_array($value->id, $linhvuc_checked) ? 'checked="checked"' : '';
+			echo '<span class="col-lg-4">
+				<input type="checkbox" name="linhvuc_id[]" value="'.$value->id.'"'.$checked.'>
+				 <label> &nbsp'.$value->name.'</label></span>';
+		}
+		?>
+	<?php endif;?>
+	<?php //echo $form->dropDownList($model,'linhvuc_id', CHtml::listData($linhvuc, 'id', 'name'), array('class' => 'form-control', 'multiple' => 'multiple')); ?>
 </div>
 
 <div class="form-group">

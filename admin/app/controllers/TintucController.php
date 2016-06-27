@@ -27,7 +27,10 @@ class TintucController extends Controller
 			$replace = "data-toggle='collapse'";
 			$model->content = str_replace($search, $replace, $data['content']);
 			$model->cat_id = $cat_id;
-			$model->alias = convert($data['name']);
+			if ($data['alias'] != '')
+				$model->alias = convert($data['alias']);
+			else
+				$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;
 
@@ -73,7 +76,10 @@ class TintucController extends Controller
 			$search = "rel=\"data-toggle='collapse'\"";
 			$replace = "data-toggle='collapse'";
 			$model->content = str_replace($search, $replace, $data['content']);
-			$model->alias = convert($data['name']);
+			if ($data['alias'] != '')
+				$model->alias = convert($data['alias']);
+			else
+				$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;
 			$imageUploadFile = CUploadedFile::getInstance($model, 'image');

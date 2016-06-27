@@ -6,7 +6,7 @@ $this->pageTitle = 'Luật sư';
 	<li><i class="fa fa-star-o"></i> <a href='<?php echo url('/luatsu')?>'><?php echo $this->pageTitle;?></a></li>
 	<li class="active"><i class="fa fa-plus-square-o"></i> Add</li>
 </ol>
-<div class="col-lg-8">
+<div class="col-lg-12">
 
 
 <?php echo CHtml::errorSummary($model, '<div class="alert alert-dismissable alert-warning"> Loi', '</div>'); ?>
@@ -45,10 +45,20 @@ $this->pageTitle = 'Luật sư';
 	<?php echo $form->textField($model,'address', array('class' => 'form-control', 'placeholder' => 'Vui lòng nhập địa chỉ')); ?>
 </div>
 
-<div class="form-group">
+<div class="form-group" style="overflow: hidden">
 	<?php echo $form->labelEx($model,'linhvuc_id'); ?>
-	<?php echo $form->dropDownList($model,'linhvuc_id', CHtml::listData($linhvuc, 'id', 'name'), array('class' => 'form-control')); ?>
+	<br>
+	<?php if($linhvuc):?>
+		<?php foreach ($linhvuc as $value) {
+			echo '<span class="col-lg-4">
+				
+				 <label> <input type="checkbox" name="linhvuc_id[]" value="'.$value->id.'"> '.$value->name.'</label></span>';
+		}
+		?>
+	<?php endif;?>
+	<?php //echo $form->dropDownList($model,'linhvuc_id', CHtml::listData($linhvuc, 'id', 'name'), array('class' => 'form-control', 'multiple' => 'multiple')); ?>
 </div>
+<p class="clear"></p>
 
 <div class="form-group">
 	<?php echo $form->labelEx($model,'chucdanh_id'); ?>

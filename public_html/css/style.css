@@ -235,9 +235,15 @@ body {
     padding-top: 1px;
     font-size: 14px;
     font-weight: 500;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    
+    
+}
+
+.news_title{
     white-space: nowrap;
+    width: 98%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tintuc a:hover, .dichvu a:hover{

@@ -22,6 +22,8 @@ class LuatsuController extends Controller
 			$search = "rel=\"data-toggle='collapse'\"";
 			$replace = "data-toggle='collapse'";
 			$model->content = str_replace($search, $replace, $data['content']);
+			if(isset($_POST['linhvuc_id']))
+				$model->linhvuc_id = implode(',', $_POST['linhvuc_id']);
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;
@@ -80,6 +82,10 @@ class LuatsuController extends Controller
 			$search = "rel=\"data-toggle='collapse'\"";
 			$replace = "data-toggle='collapse'";
 			$model->content = str_replace($search, $replace, $data['content']);
+			if(isset($_POST['linhvuc_id']))
+				$model->linhvuc_id = implode(',', $_POST['linhvuc_id']);
+			else
+				$model->linhvuc_id = '';
 			$model->alias = convert($data['name']);
 			$model->created = date('Y-m-d H:i:s', time());
 			$model->lang = $this->langtype;

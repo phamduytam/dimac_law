@@ -123,7 +123,8 @@ class LuatSuAR extends BaseAR
 		}
 
 		if(strlen($this->linhvuc_id) > 0){
-			$criteria->addCondition('t.linhvuc_id = :linhvuc_id')->params[':linhvuc_id'] = $this->linhvuc_id;
+			//$criteria->addCondition('t.linhvuc_id = :linhvuc_id')->params[':linhvuc_id'] = $this->linhvuc_id;
+			$criteria->addCondition('FIND_IN_SET(:linhvuc_id, t.linhvuc_id) > 0')->params[':linhvuc_id'] = $this->linhvuc_id;
 		}
 
 		if(strlen($this->vanphong_id) > 0){

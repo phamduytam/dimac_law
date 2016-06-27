@@ -38,7 +38,7 @@
 		<div class="tintuc">
 			<h3 class="title"><?php lang('site_tintuc')?></h3>
 			<?php foreach($tintuc as $v):?>
-					<div><a href="<?php echo $this->baseUrl;?><?php echo getCol($v->category, 'alias')?>/view/<?php echo $v->alias?>.html" title="<?php echo $v->name?>"><?php echo $v->name?></a></div>
+					<div class="news_title"><a href="<?php echo $this->baseUrl;?><?php echo getCol($v->category, 'alias')?>/view/<?php echo $v->alias?>.html" title="<?php echo $v->name?>"><?php echo $v->name?></a></div>
 					<?php endforeach;?>
 		</div>
 		<?php endif;?>

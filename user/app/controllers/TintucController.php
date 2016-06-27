@@ -12,21 +12,23 @@ class TintucController extends Controller
 		$category = $model->getMenu();
 
 		$model = new TinTucAR();
+		$parent = false;
 		if($alias) {
 			$alias = str_replace('.html', '', $alias);
 			$parent = $model->findByAttributes(array('alias' => $alias, 'lang' => $this->langtype));
-		} else {
+		}/* else {
 			$id = $category[0]->id;
 			$parent = $model->findByPk($id);
-		}
+		}*/ //show all new 
 
-		if (!$parent) {
+		/*if (!$parent) {
 			$this->error('Page not found', '404');
 			return ;
-		}
+		}*/
 
 		$model = new TinTucAR('searchList');
-		$model->parent_id = $parent->id;
+		if ($parent)
+			$model->parent_id = $parent->id; // show all news
 		$model->lang = $this->langtype;
 		$model->order = 't.created DESC';
 		$content = $model->searchList();

@@ -34,6 +34,11 @@ $this->pageTitle = ' Tin tức';
 </div>
 
 <div class="form-group">
+	<?php echo $form->labelEx($model,'alias'); ?>
+	<?php echo $form->textField($model,'alias', array('class' => 'form-control', 'placeholder' => 'URL rút ngắn')); ?>
+</div>
+
+<div class="form-group">
 	<?php echo $form->labelEx($model,'description'); ?>
 	<?php echo $form->textArea($model,'description', array('class' => 'form-control')); ?>
 	<script>

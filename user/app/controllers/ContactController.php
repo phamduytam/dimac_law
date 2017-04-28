@@ -25,7 +25,7 @@ class ContactController extends Controller
 						$mail->CharSet = 'utf-8';
 						$mail->SMTPDebug  = 0;
 						$mail->Username = 'DimacLaw.Info@gmail.com';
-						$mail->Password = '#123456789';
+						$mail->Password = '';
 						$mail->SetFrom($model->email, $model->name);
 						$content .= '<p>Họ tên: ' . $model->name . ' </p>';
 						$content .= '<p>Email: '. $model->email .'</p>';
